@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your dataset
-data = pd.read_csv('cleaned_retractions35215.csv')
+data = pd.read_csv('/Users/sabinghimire/data visualisation/clean csv/cleaned_retractions35215.csv')
 
 # Convert 'RetractionDate' to datetime format, if needed
 data['RetractionDate'] = pd.to_datetime(data['RetractionDate'], errors='coerce')
